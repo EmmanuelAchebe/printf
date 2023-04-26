@@ -3,7 +3,7 @@
 /**
  * _isdigit - checks if character is digit
  * @c: the character to check
- *
+ * achebe emmanuel
  * Return: 1 if digit, 0 otherwise
  */
 int _isdigit(int c)

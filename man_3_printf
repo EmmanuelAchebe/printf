@@ -10,9 +10,9 @@
 .B , ...)
 .SH DESCRIPTION
 .B _printf()
-Prints to standard output under the control of a 
+Prints to standard output under the control of a
 .I format
-string that specifies how subsequent arguments are converted for output. 
+string that specifies how subsequent arguments are converted for output.
 .SH Return value
 On successful return, these functions return the number of characters printed, excluding the null byte used to end output to strings.
 
@@ -57,7 +57,7 @@ Prints a string converted to rot13
 A '%' is written but no argument is converted. The complete version specification is '%%'
 .SH EXAMPLE
 To print the day of the year, where weekday and month are pointers to strings and day and year are integers:
-
+Achebe emmanuel
 #include "main.h"
 
 _printf("%s, %s %d, %d\\n", weekday, month, day, year);

@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
  * _puts - prints a string with newline
  * @str: the string to print
- *
+ * achebe emmanuel
  * Return: void
  */
 int _puts(char *str)

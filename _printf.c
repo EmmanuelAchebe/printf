@@ -3,7 +3,7 @@
 /**
  * _printf - prints anything
  * @format: the format string
- *
+ * achebe emmanuel
  * Return: number of bytes printed
  */
 int _printf(const char *format, ...)
@@ -47,4 +47,3 @@ int _printf(const char *format, ...)
 	va_end(ap);
 	return (sum);
 }
-	
